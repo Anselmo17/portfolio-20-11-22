@@ -22,7 +22,7 @@ function initSwiper() {
 function listProjects() {
   const carousel = document.getElementById('carousel');
 
-  list = '';
+  let list = '';
   projects.forEach(item => {
     list += `
               <div class="swiper-slide">
