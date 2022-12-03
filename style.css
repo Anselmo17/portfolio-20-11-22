@@ -107,8 +107,8 @@ section#home {
 }
 
 .home-img img {
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   animation: float 5s ease-in-out infinite;
   box-shadow: 0 10px 10px;
   border-radius: 50%;
