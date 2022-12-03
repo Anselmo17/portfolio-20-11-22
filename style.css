@@ -107,8 +107,8 @@ section#home {
 }
 
 .home-img img {
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   animation: float 5s ease-in-out infinite;
   box-shadow: 0 10px 10px;
   border-radius: 50%;
@@ -253,6 +253,10 @@ footer {
   .home-info, .home-img {
     width: 100%;
     padding: 10px;
+  }
+
+  .home-resume *{
+    text-align: justify;
   }
 
   .swiper-slide {
