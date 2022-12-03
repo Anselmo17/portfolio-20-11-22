@@ -255,6 +255,10 @@ footer {
     padding: 10px;
   }
 
+  .home-resume *{
+    text-align: justify;
+  }
+
   .swiper-slide {
     flex-direction: column-reverse;
     gap: 30px;
