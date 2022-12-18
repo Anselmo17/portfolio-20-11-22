@@ -243,14 +243,11 @@ button {
   gap: 30px;
 }
 
-#redes {
-text-align: center;
-}
 #redes > ul > li {
   list-style: none;
 }
 
-#redes > ul > li:hover {
+#redes > span:hover {
   cursor: pointer;
 }
 
