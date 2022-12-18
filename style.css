@@ -24,9 +24,10 @@ body {
 body::-webkit-scrollbar {
   width: 6px;
 }
+
 body::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background-color: lightgray; 
+  background-color: lightgray;
 }
 
 main {
@@ -44,7 +45,7 @@ header {
   top: 0;
   z-index: 999;
   background-color: #473970;
-  color:#fcfbff;
+  color: #fcfbff;
   box-shadow: 0 1px 0 #ececec;
   max-width: 1120px;
   width: 100%;
@@ -58,7 +59,7 @@ header {
 a {
   cursor: pointer;
   text-decoration: none;
-  color:#fcfbff;
+  color: #fcfbff;
 }
 
 /* HOME */
@@ -91,11 +92,11 @@ section#home {
   border-radius: 5px;
 }
 
-.home-info button a{
+.home-info button a {
   color: white;
 }
 
-.home-info button:hover{
+.home-info button:hover {
   opacity: 1;
 }
 
@@ -115,9 +116,12 @@ section#home {
 }
 
 @keyframes float {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-30px);
   }
@@ -126,7 +130,7 @@ section#home {
 /* PROJECTS */
 
 section#projects {
-  height: calc(100vh + 80px);
+  height: calc(70vh + 30px);
   width: 100%;
   display: flex;
   align-items: center;
@@ -145,13 +149,13 @@ section#projects {
   width: 80%;
 }
 
-.link-site{
-background-color: white;
-padding: 2px;
-border-radius: 15px;
-margin-left: 10px;
-margin-right: 10px;
-color: #473970;
+.link-site {
+  background-color: white;
+  padding: 2px;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #473970;
 }
 
 .project-info {
@@ -174,7 +178,7 @@ color: #473970;
   padding: 0 30px;
 }
 
-.swiper-button-next, 
+.swiper-button-next,
 .swiper-button-prev {
   color: #ffffff;
 }
@@ -187,7 +191,7 @@ color: #473970;
 /* CONTACTS */
 
 #contact {
-  height: calc(100vh + 80px);
+  height: calc(70vh + 30px);
   width: 100%;
   display: flex;
   align-items: center;
@@ -205,7 +209,9 @@ color: #473970;
   padding: 5px 20px;
 }
 
-input, textarea, button {
+input,
+textarea,
+button {
   box-shadow: 0 1px 2px #ddd;
   border: none;
   padding: 10px;
@@ -222,8 +228,30 @@ input, textarea, button {
   opacity: 0.9;
 }
 
-#contact form button:hover{
+#contact form button:hover {
   opacity: 1;
+}
+
+/******** redes sociais **********/
+#redes {
+  height: calc(10vh + 20px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#redes {
+text-align: center;
+}
+#redes > ul > li {
+  list-style: none;
+}
+
+#redes > ul > li:hover {
+  cursor: pointer;
 }
 
 /* FOOTER */
@@ -240,7 +268,7 @@ footer {
   header {
     justify-content: center;
   }
-  
+
   .logo {
     display: none;
   }
@@ -250,12 +278,13 @@ footer {
     justify-content: center;
   }
 
-  .home-info, .home-img {
+  .home-info,
+  .home-img {
     width: 100%;
     padding: 10px;
   }
 
-  .home-resume *{
+  .home-resume * {
     text-align: justify;
   }
 
@@ -267,7 +296,7 @@ footer {
   .project-img {
     width: 100%;
   }
- 
+
   .project-info {
     width: 80%;
   }
