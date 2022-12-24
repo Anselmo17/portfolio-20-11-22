@@ -32,7 +32,7 @@ function listProjects() {
                     <div class="project-info">
                         <h2>${item.title}</h2>
                         <p>${item.message}</p>
-                        <p>
+                        <p class="p-link">
                               <a href=${item.link} target="_blank" class="link-site">Link do Projeto</a>
                         </p>
                     </div>

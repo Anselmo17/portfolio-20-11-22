@@ -151,11 +151,16 @@ section#projects {
 
 .link-site {
   background-color: white;
-  padding: 2px;
+  padding: 8px;
   border-radius: 15px;
   margin-left: 10px;
   margin-right: 10px;
   color: #473970;
+}
+
+
+.p-link{
+  margin-top: 12px;
 }
 
 .project-info {
@@ -163,6 +168,8 @@ section#projects {
   display: flex;
   flex-direction: column;
   text-align: start;
+  gap: 8px;
+  padding: 6px;
 }
 
 .swiper {
