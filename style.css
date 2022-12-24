@@ -235,13 +235,10 @@ button {
   opacity: 0.9;
 }
 
-#contact form button:hover {
- 
-}
 
 .btn:hover {
-  color: rgb(21, 30, 5);
-  background-color:  rgb(119, 171, 36);
+  color: rgb(21, 30, 5) !important;
+  background-color:  rgb(119, 171, 36) !important;
 }
 
 .btn a:hover {
