@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -24,7 +26,7 @@
                     <a href="#home">Sobre Mim</a>
                     <a href="#projects">Projetos</a>
                     <a href="#contact">Contatos</a>
-                    <a href="#redes">Redes Sociais</a>
+                    <a href="#redes-sociais">Redes Sociais</a>
                 </nav>
             </div>
         </header>
@@ -73,7 +75,7 @@
 
                 </span>
 
-                <button>
+                <button class="btn">
                     <a href="#contact">Contate-me</a>
                 </button>
             </div>
@@ -102,20 +104,27 @@
                 <input type="text" placeholder="Digite seu nome" />
                 <input type="email" placeholder="Digite seu e-mail" />
                 <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
-                <button>Enviar</button>
+                <button class="btn" type="button">Enviar</button>
             </form>
         </section>
 
         <!-- redes sociais-->
-        <section id="redes">
+        <section id="redes-sociais">
             <h2>Redes Sociais</h2>
             <ul>
                 <li>
-                    <a href="https://www.linkedin.com/in/anselmo-nascimento-80783a145/" target="_blank">Linkedin</a>
-                 </li>
-                 <li>
-                    <a href="https://github.com/Anselmo17" target="_blank">GitHub</a>
-                 </li>
+                    <a href="https://www.linkedin.com/in/anselmo-nascimento-80783a145/" target="_blank">
+                        <i class="fa-brands fa-linkedin icon-redes"></i>
+                    </a>
+                </li>
+                <li>
+                    <!-- 
+                        <a href="https://github.com/Anselmo17" target="_blank">GitHub</a>
+                    -->
+                    <a href="https://github.com/Anselmo17" target="_blank">
+                        <i class="fa-brands fa-github icon-redes"></i>
+                    </a>
+                </li>
             </ul>
         </section>
 

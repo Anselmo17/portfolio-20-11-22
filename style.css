@@ -159,7 +159,7 @@ section#projects {
 }
 
 
-.p-link{
+.p-link {
   margin-top: 12px;
 }
 
@@ -239,22 +239,42 @@ button {
   opacity: 1;
 }
 
+.btn:hover {
+  color: rgb(21, 30, 5);
+  background-color:  rgb(119, 171, 36);
+}
+
+.btn a:hover {
+  color: rgb(21, 30, 5);
+}
+
 /******** redes sociais **********/
-#redes {
-  height: calc(10vh + 20px);
+#redes-sociais {
+  height: calc(10vh + 60px);
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 30px;
+  gap: 10px;
+  margin-bottom: 5px;
 }
 
-#redes > ul > li {
+#redes-sociais>ul>li {
   list-style: none;
+  display: inline;
+  padding: 2px;
 }
 
-#redes > span:hover {
+.icon-redes {
+  font-size: 30px;
+}
+
+.icon-redes:hover{
+  color: rgb(119, 171, 36);
+}
+
+#redes-sociais>span:hover {
   cursor: pointer;
 }
 
